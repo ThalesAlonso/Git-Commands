@@ -29,10 +29,10 @@ As configurações do GIT são armazenadas no arquivo **.gitconfig** localizado 
 As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima.
 
 ##### Setar usuário
-	git config --global user.name "Leonardo Comelli"
+	git config --global user.name "Thales Alonso"
 
 ##### Setar email
-	git config --global user.email leonardo@software-ltda.com.br
+	git config --global user.email thales@software.com.br
 	
 ##### Setar editor
 	git config --global core.editor vim
@@ -188,7 +188,7 @@ A alteração do diretório pode ser realizada através do comando abaixo:
 
 ### Vincular repositório local com um repositório remoto
 
-	git remote add origin git@github.com:leocomelli/curso-git.git
+	git remote add origin git@github.com:ThalesAlonso/Git-Commands.git
 	
 ### Exibir informações dos repositórios remotos
 
@@ -196,11 +196,11 @@ A alteração do diretório pode ser realizada através do comando abaixo:
 	
 ### Renomear um repositório remoto 
 
-	git remote rename origin curso-git
+	git remote rename origin Git-Commands-git
 	
 ### Desvincular um repositório remoto
 	
-	git remote rm curso-git
+	git remote rm Git-Commands-git
 
 ### Enviar arquivos/diretórios para o repositório remoto
 
@@ -225,7 +225,7 @@ Os demais **pushes** não precisam dessa informação
 	
 ### Clonar um repositório remoto já existente
 
-	git clone git@github.com:leocomelli/curso-git.git
+	git clone git@github.com:ThalesAlonsoGit-Commands.git
 	
 ### Tags
 
